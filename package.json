@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "types": "dist/index.d.ts",
+  "files": ["dist"],
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.9.0",
