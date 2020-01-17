@@ -11,7 +11,9 @@
     "build": "tsc",
     "test": "jest",
     "watch": "jest --watch",
-    "prepare": "tsc && jest"
+    "doc": "typedoc",
+    "prepare": "tsc && jest",
+    "prepublishOnly": "doc"
   },
   "keywords": [],
   "author": "Greg Wiley <aztec.rex@jammm.com>",
