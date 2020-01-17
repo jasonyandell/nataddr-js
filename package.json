@@ -13,7 +13,7 @@
     "watch": "jest --watch",
     "doc": "typedoc",
     "prepare": "tsc && jest",
-    "prepublishOnly": "doc"
+    "prepublishOnly": "typedoc"
   },
   "keywords": [],
   "author": "Greg Wiley <aztec.rex@jammm.com>",
