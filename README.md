@@ -4,7 +4,7 @@ List of CJ NAT addresses suitable for source IP whitelisting.
 
 ## Usage
 
-Install insto project: `npm i @cjdev/nataddr`
+Install into your project: `npm i @cjdev/nataddr`
 
 ``` typescript
 import * as nat from '@cjdev/nataddr';
