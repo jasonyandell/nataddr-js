@@ -1,8 +1,11 @@
 {
   "name": "@cjdev/nataddr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NAT addresses for whitelisting",
-  "repository": {"type": "git", "url": "https://github.com/cjdev/nataddr-js.git"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjdev/nataddr-js.git"
+  },
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -14,12 +17,15 @@
   "author": "Greg Wiley <aztec.rex@jammm.com>",
   "license": "ISC",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.9.0",
     "jest": "^24.9.0",
     "ts-jest": "^24.3.0",
+    "typedoc": "^0.16.7",
     "typescript": "^3.7.5"
   }
 }
