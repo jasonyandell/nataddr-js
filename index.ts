@@ -1,3 +1,3 @@
-import {all, v4, v6} from './nat';
+import {all, v4, v6, AddressBlock, AddressType} from './nat';
 
-export {all, v4, v6};
+export {all, v4, v6, AddressBlock, AddressType};
