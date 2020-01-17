@@ -10,7 +10,7 @@
     "prepare": "tsc && jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Greg Wiley <aztec.rex@jammm.com>",
   "license": "ISC",
   "types": "dist/index.d.ts",
   "files": ["dist"],
