@@ -4,6 +4,16 @@ List of CJ NAT addresses suitable for source IP whitelisting.
 
 ## Usage
 
+### In the Shell
+
+```
+npx @cjdev/nataddr
+```
+
+will display the list of nat IP addresses in the format `<Address Type> <Address>`.
+
+### As a Library
+
 Install into your project: `npm i @cjdev/nataddr`
 
 ``` typescript
