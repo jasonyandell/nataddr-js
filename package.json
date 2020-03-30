@@ -1,12 +1,13 @@
 {
   "name": "@cjdev/nataddr",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "NAT addresses for whitelisting",
   "repository": {
     "type": "git",
     "url": "https://github.com/cjdev/nataddr-js.git"
   },
   "main": "dist/index.js",
+  "bin": "main.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -20,7 +21,8 @@
   "license": "ISC",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "main.js"
   ],
   "dependencies": {},
   "devDependencies": {
