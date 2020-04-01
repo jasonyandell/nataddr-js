@@ -1,4 +1,5 @@
-const nat = require("./dist/index");
+#!/usr/bin/env node
+const nat = require("./dist/index.js");
 
 console.log(
   nat

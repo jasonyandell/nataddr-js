@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+set -eu -o pipefail
+
+if [[ -n "${DEBUG:-}" ]]; then
+  set -x
+fi
+
+cd "$(dirname "$(readlink "$0")")" 
+node_module="$(git rev-parse --show-toplevel)"
+tmpdir="$(mktemp -d)"
+
+cd "$tmpdir"
+function cleanup() {
+  rm -rf "$tmpdir"
+}
+trap cleanup EXIT TERM
+
+npm init -y &>/dev/null
+npm install "$node_module" &>/dev/null
+
+lines=$(npx -q @cjdev/nataddr | grep -c IP)
+
+echo "npx-test: ${lines##* } lines in output"
+(( lines > 0 ))
