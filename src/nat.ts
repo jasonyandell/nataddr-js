@@ -50,6 +50,8 @@ export function v6(): string[] {
 
 
 const IPV6_BLOCKS: string[] = [
+
+    // Epsilon/Conversant
     "2606:ae80:0000:0000:0000:0000:0000:0000/32",
     "2a02:fa8:0000:0000:0000:0000:0000:0000/32",
 ];
@@ -57,6 +59,7 @@ const IPV6_BLOCKS: string[] = [
 
 const IPV4_BLOCKS: string[] = [
 
+    // Epsilon/Conversant
     "63.215.202.0/24",
     "64.158.223.0/24",
     "159.127.42.0/23",
@@ -78,6 +81,15 @@ const IPV4_BLOCKS: string[] = [
     "88.217.144.6/32",
     "195.68.101.136/29",
     "178.208.9.229/32",
+
+    // Publicis Americas VPN
+    "167.246.0.0/16",
+
+
+    // Prodigious Site NATs
+    "190.98.184.24/29",
+    "190.85.27.180",
+
 ];
 
 const  BLOCKS: AddressBlock[] = (
