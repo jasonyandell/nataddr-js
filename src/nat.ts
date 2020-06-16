@@ -88,7 +88,7 @@ const IPV4_BLOCKS: string[] = [
 
     // Prodigious Site NATs
     "190.98.184.24/29",
-    "190.85.27.180",
+    "190.85.27.180/32",
 
 ];
 

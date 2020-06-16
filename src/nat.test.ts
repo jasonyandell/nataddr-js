@@ -27,3 +27,9 @@ test('v4 addresses', () => {
             .map(x => x.descriptor)
             .sort())
 });
+
+test('compact CIDR form', () => {
+    nat.all().map(v => v.descriptor).forEach(addr => {
+        expect(addr).toMatch(/\/\d{1,2}$/);
+    });
+});
