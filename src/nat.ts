@@ -82,6 +82,9 @@ const IPV4_BLOCKS: string[] = [
   "195.68.101.136/29",
   "178.208.9.229/32",
 
+  // Epsilon Elk Grove (from user, need Epsilon confirmation)
+  "159.127.85.252/30",
+
   // Publicis Americas VPN
   "167.246.0.0/16",
 
