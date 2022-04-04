@@ -1,7 +1,7 @@
 import * as nat from "./nat";
 
 test("all count", () => {
-  expect(nat.all().length).toBe(31);
+  expect(nat.all().length).toBe(57);
 });
 
 test("v6 count", () => {
