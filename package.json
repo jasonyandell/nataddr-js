@@ -1,6 +1,6 @@
 {
   "name": "@cjdev/nataddr",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "NAT addresses for whitelisting",
   "repository": {
     "type": "git",
@@ -24,7 +24,6 @@
     "dist",
     "main.js"
   ],
-  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.9.0",
     "jest": "^24.9.0",
