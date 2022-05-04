@@ -1,6 +1,6 @@
 {
   "name": "@cjdev/nataddr",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "NAT addresses for whitelisting",
   "repository": {
     "type": "git",
