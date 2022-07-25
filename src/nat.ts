@@ -122,6 +122,12 @@ const IPV4_BLOCKS: string[] = [
 
   // Agoura Hills Office (confirmed w/ Publicis)
   "131.239.140.150/32",
+
+  // LatAm offices
+  "186.96.89.164/32",
+  "190.106.68.68/32",
+  "200.26.153.198/32",
+  "200.122.254.67/32",
 ];
 
 const BLOCKS: AddressBlock[] = (() => {
