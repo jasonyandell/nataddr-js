@@ -1,4 +1,4 @@
-import * as nat from "./nat";
+import * as nat from "./nat";;
 
 test("all count", () => {
   expect(nat.all().length).toBe(62);
